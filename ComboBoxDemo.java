@@ -18,7 +18,7 @@ class ComboBoxDemo extends JFrame implements ItemListener {
 	static JLabel label, label1;
 
 	// combobox
-	static JComboBox cBox1;
+	static JComboBox<String> cBox1;
 
 	// main class
 	public static void main(String[] args)
