@@ -10,4 +10,4 @@ Added A SerialVersionUID in order to ensure compabitability, also changed JCombo
 
 
 **What caused it to stop working?**
-The code stopped working due to java updating, and causing threading and component initialization to be more strict compared to previous versions. 
+The code stopped working due to java updating, which caused the raw type of JComboBox which could cause runtime errors. Also updates to the UI updates could cause errors.
