@@ -10,6 +10,7 @@ import java.awt.*;
 import javax.swing.*;
 
 class ComboBoxDemo extends JFrame implements ItemListener {
+	 private static final long serialVersionUID = 1L;
 
 	// frame
 	static JFrame frame;
@@ -42,7 +43,7 @@ class ComboBoxDemo extends JFrame implements ItemListener {
 		String s1[] = { "Albany", "Schenectady", "Troy", "Glens Falls", "Catskill" };
 
 		// create checkbox
-        cBox1 = new JComboBox(s1);
+        cBox1 = new JComboBox<>(s1);
 		
 		// add ItemListener
 		cBox1.addItemListener(s);
