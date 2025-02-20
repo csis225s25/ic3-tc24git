@@ -23,6 +23,8 @@ class ComboBoxDemo extends JFrame implements ItemListener {
 	// main class
 	public static void main(String[] args)
 	{
+		SwingUtilities.invokeLater(new Runnable() {
+			public void run(){
 		// create a new frame
 		frame = new JFrame("Combo Box Demo");
 		
@@ -70,6 +72,8 @@ class ComboBoxDemo extends JFrame implements ItemListener {
 		frame.setSize(400, 300);
 
 		frame.setVisible(true);
+	}
+	});
 	}
 	public void itemStateChanged(ItemEvent e)
 	{
