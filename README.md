@@ -6,6 +6,7 @@ Doing everything from a command prompt or Git Bash (no IDEs allowed), your missi
 
 
 **Changes to code**
+Added A SerialVersionUID in order to ensure compabitability, also changed JComboBox to JComboBox<String> to get rid of the raw type and make it generic.  
 
 
 **What caused it to stop working?**
