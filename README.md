@@ -9,3 +9,4 @@ Doing everything from a command prompt or Git Bash (no IDEs allowed), your missi
 
 
 **What caused it to stop working?**
+The code stopped working due to java updating, and causing threading and component initialization to be more strict compared to previous versions. 
